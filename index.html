@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Sheet</title>
+</head>
+
+<body>
+    <div>
+        <section id="header">
+            <div></div>
+
+           
+            <form class="form" onchange="changeIt()">  
+                
+                <input id="copy" name="copy" value="" class="hidden" type="checkbox">
+                <label for="copy" class="material-symbols-outlined">content_copy</label>
+
+                <input id="cut" name="cut" value="" class="hidden" type="checkbox">
+                <label for="cut" class="material-symbols-outlined">content_cut</label>
+
+                <input id="paste" name="paste" value="" class="hidden" type="checkbox">
+                <label for="paste" class="material-symbols-outlined">content_paste</label>
+                
+                <input id="bold" name="name" value="" class="hidden" type="checkbox">
+                <label for="bold" class="material-symbols-outlined">format_bold</label>
+              
+                <input id="italic" name="italic" value="" class="hidden" type="checkbox">
+                <label for="italic" class="material-symbols-outlined">format_italic</label>
+              
+                <input id="underline" name="underline" value="" class="hidden" type="checkbox">
+                <label for="underline" class="material-symbols-outlined">format_underlined</label>
+              
+                <input id="left" name="align" value="left" class="hidden" type="radio">
+                <label for="left" class="material-symbols-outlined">format_align_left</label>
+              
+                <input id="center" name="align" value="center" class="hidden" type="radio">
+                <label for="center" class="material-symbols-outlined">format_align_center</label>
+              
+                <input id="right" name="align" value="right" class="hidden" type="radio">
+                <label for="right" class="material-symbols-outlined">format_align_right</label>
+              
+                <input id="formating" name="backgroundColor" value="" class="color" type="color">
+                <label for="formating" class="material-symbols-outlined">format_color_text</label>
+              
+                <label for="color" class="material-symbols-outlined">format_color_fill</label>
+                <input id="color" name="color" value="" class="color" type="color">
+
+                <button class="button1"><span class="material-symbols-outlined">cloud_download</span></button>
+
+                <button class="button2"><span class="material-symbols-outlined">cloud_upload</span></button>
+
+
+              </form>
+              
+  
+            <div class="header3Container">
+                <div class="header3">A1</div>
+                <input aria-label="forme" type="text">
+            </div>
+        </section>
+        <div class="main-container">
+            <section id="srno"></section>
+            <section id="container">
+                <div class="column"></div>
+                <div class="maincolumn"></div>
+            </section>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
